@@ -3,99 +3,378 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dharmaram Lahari | Portfolio</title>
-
-    <!-- Correct CSS Path -->
+    <title>Lahari Dharmaram | Java Full Stack Developer</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="70">
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar-example">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <span class="brand-text">Lahari</span><span class="brand-dot">.</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certifications">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-<body>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="row min-vh-100 align-items-center">
+                <div class="col-12">
+                    <div class="hero-content text-center">
+                        <p class="hero-greeting">Hello, I'm</p>
+<h1 class="hero-name">Lahari Dharmaram</h1>
+                        <p class="hero-title">Java Full Stack Developer</p>
+                        <p class="hero-description">
+                            Recent graduate with a strong foundation in technical and interpersonal skils. Seeking an opportunity to
+                            start my career as a java full stack developer and contribute to real-world projects while learning and growing. 
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn btn-primary btn-lg me-2">View My Work</a>
+                            <a href="#contact" class="btn btn-outline-light btn-lg">Contact Me</a>
+                        </div>
+                        <div class="hero-social">
+                            <a href="http://www.linkedin.com/in/laharidharmaram972" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com/laharidharmaram" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="mailto:laharidharmaram@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
 
-    <!-- Header -->
-    <header>
-        <h1 class="small-header">Dharmaram Lahari</h1>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-
-    <!-- Landing Section -->
-    <section class="hero" id="home">
-        <div class="hero-inner">
-            <div class="hero-badge">Full-Stack Developer</div>
-            <h1 class="brand-name">Dharmaram <span class="highlight">Lahari</span></h1>
-            <p class="tagline">
-                Crafting elegant, scalable web solutions with Java, Python & modern web technologies
-            </p>
-
-            <div class="contact-ctas">
-                <a class="btn primary" href="https://www.linkedin.com/in/laharidharmaram972">💼 LinkedIn</a>
-                <a class="btn" href="https://github.com/yourgithub">⚙ GitHub</a>
-                <a class="btn ghost" href="mailto:laharidharmaram@gmail.com">✉ Email</a>
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-image">
+                        <div class="image-frame">
+                            <div class="placeholder-profile">
+                                <i class="fas fa-user"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h2 class="section-title">About Me</h2>
+                        <h3 class="about-subtitle">Java Full Stack Developer</h3>
+                        <p class="about-text">
+                            I am a motivated B.Tech graduate in Computer Science and Engineering from Ellenki College of Engineering and Technology. I am seeking an entry-level Java Full Stack Developer position to apply my technical skills and grow professionally in the IT industry.
+                        </p>
+                        <p class="about-text">
+                            With a strong foundation in both frontend and backend technologies, I am passionate about creating efficient and user-friendly applications. I am eager to contribute to innovative projects and continue learning new technologies.
+                        </p>
+                        <div class="about-info">
+                            <div class="info-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <div>
+                                    <strong>Education</strong>
+                                    <p>B.Tech in CSE<br>Ellenki College of Engineering and Technology</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-bullseye"></i>
+                                <div>
+                                    <strong>Objective</strong>
+                                    <p>Entry-level Java Full Stack Developer position</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- About -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            I am a passionate Java Full-Stack Developer with a strong foundation in HTML, CSS,
-            JavaScript, and Java OOPs. I build responsive and interactive web applications with
-            clean and scalable code.
-        </p>
-    </section>
-
-    <!-- Skills -->
-    <section id="skills">
-        <h2>Skills & Expertise</h2>
-        <div class="skills-list">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>Responsive Design</span>
-            <span>Bootstrap</span>
-            <span>Java</span>
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title text-center">Technical Skills</h2>
+            <p class="section-subtitle text-center">Technologies I work with</p>
+            
+            <div class="row">
+                <!-- Frontend Skills -->
+                <div class="col-lg-6">
+                    <div class="skills-category">
+                        <h3 class="category-title"><i class="fas fa-code"></i> Frontend</h3>
+                        <div class="skills-grid">
+                            <div class="skill-card">
+                                <div class="skill-icon">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <h4>HTML5</h4>
+                                <div class="progress">
+<div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-icon">
+                                    <i class="fab fa-css3-alt"></i>
+                                </div>
+<h4>CSS3</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-icon">
+                                    <i class="fab fa-bootstrap"></i>
+                                </div>
+<h4>Bootstrap</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-icon">
+                                    <i class="fab fa-js"></i>
+                                </div>
+<h4>JavaScript</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Backend Skills -->
+                <div class="col-lg-6">
+                    <div class="skills-category">
+                        <h3 class="category-title"><i class="fas fa-server"></i> Backend & Database</h3>
+                        <div class="skills-grid">
+                            <div class="skill-card">
+                                <div class="skill-icon">
+                                    <i class="fab fa-java"></i>
+                                </div>
+<h4>Java</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+<h4>MySQL</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tools -->
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="tools-section">
+                        <h3 class="category-title text-center"><i class="fas fa-tools"></i> Tools & Technologies</h3>
+                        <div class="tools-grid">
+                            <div class="tool-item">
+                                <i class="fas fa-code-branch"></i>
+                                <span>Git</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fas fa-file-code"></i>
+                                <span>VS Code</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fab fa-windows"></i>
+                                <span>Windows</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Projects -->
-    <section id="projects">
-        <h2>Featured Projects</h2>
-        <div class="project-list">
-            <div class="project">
-                <h6>🌐 Portfolio Website</h6>
-                Built a portfolio using HTML, CSS, and JavaScript with a minimal modern design.
-            </div>
-
-            <div class="project">
-                <h6>🔐 Smart Voting Device</h6>
-                Secure electronic voting using face recognition + fingerprint authentication built with Raspberry Pi.
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title text-center">My Projects</h2>
+            <p class="section-subtitle text-center">Featured work</p>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-water"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Monitoring and Forecasting system for water quality</h3>
+                            <p class="project-description">
+                                 A Water Quality Monitoring and Forecasting System uses real-time sensor data and AI to predict water conditions. This helps proactively manage water resources, aiding decision-making and promoting public engagement for environmental health.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">Machine Learning</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact -->
-    <section id="contact">
-        <h2>Let's Work Together</h2>
-        <p>Got a project in mind? I'd love to hear from you.</p>
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications-section">
+        <div class="container">
+            <h2 class="section-title text-center">Certifications</h2>
+            <p class="section-subtitle text-center">Professional qualifications</p>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="certification-card">
+                        <div class="certification-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="certification-content">
+                            <h3>Java Full Stack Developer Certification</h3>
+                            <p class="certification-org">Tech Mahindra SMART Academy</p>
+                            <p class="certification-desc">
+                                Comprehensive training in Java Full Stack Development covering frontend technologies, backend development, database management, and project implementation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Tell me about your project..." required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title text-center">Get In Touch</h2>
+            <p class="section-subtitle text-center">Feel free to contact me</p>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-card">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="contact-info">
+                                    <h3>Contact Information</h3>
+                                    <div class="contact-item">
+                                        <i class="fas fa-envelope"></i>
+                                        <span>lahari.dharmaram@gmail.com</span>
+                                    </div>
+                                    <!-- <div class="contact-item">
+                                        <i class="fas fa-phone"></i>
+                                        <span>+91 9876543210</span>
+                                    </div> -->
+                                    <div class="contact-item">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Hyderabad, Telangana</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="social-links">
+                                    <h3>Follow Me</h3>
+                                    <div class="social-icons">
+                                        <a href="http://www.linkedin.com/in/laharidharmaram972" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="https://github.com/laharidharmaram" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                                        <a href="mailto:laharidharmaram@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <form class="contact-form mt-4">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" placeholder="Your Name" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control" placeholder="Your Email" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Subject" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
-    <footer>
-        <p>© <span id="year"></span> Dharmaram Lahari</p>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+<p class="footer-text">&copy; 2025  Lahari Dharmaram. All Rights Reserved.</p>
+                    <p class="footer-subtext">Designed with <i class="fas fa-heart"></i> by Lahari</p>
+                </div>
+            </div>
+        </div>
     </footer>
 
-    <!-- Correct JS Path -->
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
     <script src="script.js"></script>
 </body>
 </html>
+    
+       
+            
